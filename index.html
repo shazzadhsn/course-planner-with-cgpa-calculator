@@ -18,7 +18,7 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     </head>
-    <body class="bg-gray-100">
+    <body id="index-body" class="bg-gray-100">
         <!-- Header Content -->
         <header class="bg-white shadow-sm">
             <nav id="navbar" class="flex items-center gap-4 p-4">
@@ -39,7 +39,7 @@
                 </div>
                 <p class="section-title text-xl text-[#312c85] mt-4">Plan Your Academic Journey</p>
                 <p class="section-description text-xl my-6">Track your courses, calculate your CGPA, and plan your path to academic <br /> success at BUBT</p>
-                <button class="get-started-button text-white font-semibold text-xl py-2 px-4 rounded-xl">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+                <button onclick="document.location='./statics/main.html'" class="get-started-button text-white font-semibold text-xl py-2 px-4 rounded-xl">Get Started <i class="fa-solid fa-arrow-right"></i></button>
             </section>
 
             <!-- Features Section -->
@@ -76,10 +76,15 @@
 
         <!-- Footer Content -->
         <footer>
-            <section class="footer-container bg-white mt-5 p-12 text-center">
+            <section class="footer-container bg-white mt-5 p-12 text-center shadow-[0_-4px_8px_-4px_rgba(0,0,0,0.1)]">
                 <p>&copy;2025 Bangladesh University of Business & Technology</p>
                 <p>Course Planner & CGPA Calculator</p>
             </section>
         </footer>
+
+
+
+        <!-- Scripts -->
+        <script src="./scripts/index.js"></script>
     </body>
 </html>

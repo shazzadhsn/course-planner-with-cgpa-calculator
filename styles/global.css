@@ -73,3 +73,13 @@
 }
 
 /* Small Devices */
+
+
+/* Main.css */
+#home-btn {
+    border: 1px solid #E5E5E5;
+}
+#home-btn:hover {
+    cursor: pointer;
+    background-color: #e9ebef;
+}
