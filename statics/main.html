@@ -74,6 +74,106 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- Semesters Container -->
+                <section class="semesters-container mt-10">
+
+                    <section class="semester-box rounded-2xl">
+                        <!-- semester number -->
+                        <section class="p-4 rounded-xl flex gap-5 semester-numbers bg-[#F4F3FF] shadow-[0_-2px_2px_-1px_rgba(0,0,0,0.1),_0_-2px_2px_-1px_rgba(0,0,0,0.06)]">
+
+                            <p class="semester-no">Semester: <span id="sem-count" class="font-bold">1</span></p>
+                            <p class="sgpa ">GPA: <span id="sgpa-count" class="text-[#4F39F6] font-bold">0.00</span></p>
+                            <p class="s-credit">Credits: <span id="credit-count" class="font-bold">0</span></p>
+
+                        </section>
+
+                        <!-- semester other content -->
+                        <section class=" p-4 semester-other-content bg-white shadow-sm rounded-xl">
+
+                            <!-- Course Detail -->
+                            <section class="course-details grid grid-cols-3 gap-10">
+                                <!-- Course Name -->
+                                <div class="course-name flex flex-col">
+                                    <label for="" class="font-semibold">Course Name</label>
+                                    <input class="bg-[#F3F3F5] px-3 py-2 rounded-lg" type="text" name="" id="" placeholder="Data Structure">
+                                </div>
+
+                                <!-- Course Credit -->
+                                <div class="course-credit flex flex-col">
+                                    <label for="" class="font-semibold">Credits</label>
+                                    <input class="bg-[#F3F3F5] px-3 py-2 rounded-lg" type="number" name="" id="" placeholder="3">
+                                </div>
+
+                                <!-- Course Grade -->
+                                <div class="course-grade flex flex-col">
+                                    <label for="" class="font-semibold">Grade</label>
+                                    <select class="bg-[#F3F3F5] px-3 py-2 rounded-lg" name="" id="">
+                                        <option value="">Select</option>
+                                        <option value="">A+ (4.00)</option>
+                                        <option value="">A (3.75)</option>
+                                        <option value="">A- (3.50)</option>
+                                        <option value="">B+ (3.25)</option>
+                                        <option value="">B (3.00)</option>
+                                        <option value="">B- (2.75)</option>
+                                        <option value="">C+ (2.50)</option>
+                                        <option value="">C (2.25)</option>
+                                        <option value="">D (2.00)</option>
+                                        <option value="">F (0.00)</option>
+                                    </select>
+                                </div>
+                            </section>
+
+                            <!-- add course button -->
+                            <button class="bg-black text-white p-2 rounded-xl font-semibold mt-4"><i class="fa-solid fa-plus"></i> Add Course</button>
+
+                            <!-- Course list -->
+                            <section class="course-list mt-5">
+                                <p class="font-semibold">Courses</p>
+
+                                <p class="text-center">No courses added yet. Add your first course above!</p>
+
+                                <!-- list-of-courses -->
+                                <section class="list-of-courses hidden">
+
+                                    
+                                    <!-- Single Course -->
+                                    <div class="my-5 single-course p-5 border-1 border-[#E5E7EB] rounded-lg flex items-center justify-between">
+
+                                        <!-- left part -->
+                                        <div class="single-course-left flex gap-5 items-center">
+                                            <div class="book-icon w-10 h-10 bg-[#E0E7FF] flex justify-center items-center rounded-4xl">
+                                                <i class="fa-solid fa-book-open text-[#4F39F6]"></i>
+                                            </div>
+                                            <div class="left-text">
+                                                <p>Data Structure</p>
+                                                <p class="text-[#6A7282]"><span>3</span> Credits</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- right part -->
+                                        <div class="single-course-right flex items-center gap-5">
+                                            <div class="right-text">
+                                                <span class="text-[#4F39F6] font-semibold text-2xl">A</span>
+                                                <p class="text-[#6A7282]"><span>0.0</span> GPA</p>
+                                            </div>
+                                            <div class="delete-icon h-5 w-5 flex justify-center items-center p-4 rounded-sm">
+                                                <i class="fa-regular fa-trash-can text-[#EA202A]"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </section>
+                            </section>
+
+                        </section>
+                    </section>
+
+
+
+                </section>
             </section>
         </main>
 
