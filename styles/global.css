@@ -22,8 +22,16 @@
 #main-display {
     background-image: linear-gradient(to right, #5937f6, #9318fa);
 }
-.delete-icon:hover {
-    background-color: rgb(255, 211, 211);
+
+.semester-add-btn:hover {
+    background-image: linear-gradient(to right, #5937f6, #9318fa);
+    color: white;
+    cursor: pointer;
+    border-style: dashed;
+    border-color: white
+}
+
+.del-btn:hover {
     cursor: pointer;
 }
 
