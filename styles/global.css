@@ -35,6 +35,10 @@
     cursor: pointer;
 }
 
+.add-course-btn:hover {
+    cursor: pointer;
+}
+
 /* feature section */
 
 /*Extra Small Devices */
